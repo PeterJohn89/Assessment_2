@@ -1,0 +1,68 @@
+/*
+Assessment 2 Team Project
+Author: Peter Goodwin
+Version: 1.0
+
+INDEX
+--Body--
+--Wrappers--
+--Nav--
+--Header--
+*/
+
+
+
+body{
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+/* --Navigation menu-- */
+.nav{
+  padding: 0px 20px !important;
+  height: 80px;
+  align-content: center;
+}
+.nav-link, .fa-wifi{
+  color: #343a40;
+  cursor: pointer;
+}
+.nav-link:hover{
+  color: #89A4CA;
+}
+.active{
+  color: #89A4CA;
+}
+/* Header */
+.header_bg_img{
+  width: 100%;
+  height: 500px;
+  background-image: url("../images/background_image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.custom_title{
+  font-family: 'Baloo Chettan', cursive;
+  font-size: 4em;
+  color: #fff;
+}
+.custom_paragraph{
+  color: #fff !important;
+}
+.btn-secondary{
+  background-color: #89A4CA !important;
+  border-color: none !important;
+}
+
+
+
+/* Footer */
+footer{
+  background-color: #F8F9FA;
+  padding: 20px 0px;
+  box-sizing: border-box;
+  margin-top: 2em;
+}
+footer .fab{
+  padding: 5px;
+}
