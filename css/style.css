@@ -13,7 +13,7 @@ INDEX
 
 
 body{
-  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* --Navigation menu-- */
@@ -29,9 +29,9 @@ body{
 .nav-link:hover{
   color: #89A4CA;
 }
-.active{
+/* .active{
   color: #89A4CA;
-}
+} */
 /* Header */
 .header_bg_img{
   width: 100%;
@@ -42,9 +42,10 @@ body{
   background-size: cover;
 }
 .custom_title{
-  font-family: 'Baloo Chettan', cursive;
-  font-size: 4em;
+  font-family: 'Roboto', sans-serif;
+  font-size: 7em;
   color: #fff;
+  text-transform: uppercase;
 }
 .custom_paragraph{
   color: #fff !important;
@@ -53,7 +54,11 @@ body{
   background-color: #89A4CA !important;
   border-color: none !important;
 }
-
+/*rows*/
+.row{
+  margin-bottom: 60px;
+  text-align: center;
+}
 
 
 /* Footer */
