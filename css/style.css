@@ -43,8 +43,9 @@ body{
 }
 .custom_title{
   font-family: 'Roboto', sans-serif;
-  font-size: 7em;
+  font-size: 4em;
   color: #fff;
+  line-height: 5.2;
   text-transform: uppercase;
 }
 .custom_paragraph{
