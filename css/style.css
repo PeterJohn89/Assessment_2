@@ -49,6 +49,13 @@ body{
   line-height: 5.2;
   text-transform: uppercase;
 }
+.sub_title{
+  font-family: 'Roboto', sans-serif;
+  font-size: 4em;
+  color: #fff;
+  line-height: 5.2;
+  text-transform: uppercase;
+}
 .custom_paragraph{
   color: #fff !important;
 }
@@ -56,12 +63,31 @@ body{
   background-color: #89A4CA !important;
   border-color: none !important;
 }
+.header_banner{
+  background-image: url("https://cdn.pixabay.com/photo/2017/09/25/11/55/cyberspace-2784907_960_720.jpg");
+  background-position: -10px -170px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  margin-bottom: 50px;
+  filter: grayscale(100%);
+}
 /*rows*/
 .row{
   margin-bottom: 60px;
   text-align: center;
 }
-
+.profile_img{
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 348px;
+height: 220px;
+}
+.bio_content{
+  text-align: justify;
+  text-align-last: center;
+}
 
 /* Footer */
 footer{
